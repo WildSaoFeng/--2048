@@ -130,7 +130,7 @@ function use_simplified(){
 
   document.querySelector('.restart-button').textContent = "退学创业";
   document.querySelector('.retry-button').textContent = "我要选择繁星留学！";
-  document.querySelector('.game-explanation').innerHTML = "<strong class='important'>留学路漫漫，繁星伴你行：</strong> 由PHD 2048改版而来。作者：繁星留学CEO CMU-SV MSSM WildSaoFeng Lynch。欢迎关注公司公众号&咨询产品！申请季加油，都是这么过来的，祝大家Offer满满！就改了一小时左右，如果有BUG欢迎反馈。各级：Coffee - 泡面 - 背单词 - 刷机经 - 考TOEFL - 考GRE - 做科研 - Paper - 去参会 - 交换 - 推荐信 - 牛推 - Rej - Offer - Stanford!（希望学校不会找我喝茶hhh）";
+  document.querySelector('.game-explanation').innerHTML = "<strong class='important'>留学路漫漫，繁星伴你行：</strong> 由PHD 2048改版而来。作者：繁星留学CEO & Carnegie Mellon University - Silicon Valley MSSM WildSaoFeng Lynch。分布全球的同伴导师，更亲切的交流方式，用心辅导每位同学的留学，你们的事就是我们的事，低于市面平均中介价40%左右，欢迎关注公司公众号&咨询产品！申请季加油，都是这么过来的，祝大家Offer满满！就改了一小时左右，如果有BUG欢迎反馈。各级：Coffee - 泡面 - 背单词 - 刷机经 - 考TOEFL - 考GRE - 做科研 - Paper - 去参会 - 交换 - 推荐信 - 牛推 - Rej - Offer - Stanford!（希望学校不会找我喝茶hhh）";
 }
 
 function use_traditional(){
@@ -145,7 +145,7 @@ function use_traditional(){
 
   document.querySelector('.restart-button').textContent = "退学创业";
   document.querySelector('.retry-button').textContent = "善";
-  document.querySelector('.game-explanation').innerHTML = "<strong class='important'>留学路漫漫，繁星伴你行：</strong> 由PHD 2048改版而来。作者：繁星留学CEO CMU-SV MSSM WildSaoFeng Lynch。欢迎关注公司公众号&咨询产品！申请季加油，都是这么过来的，祝大家Offer满满！就改了一小时左右，如果有BUG欢迎反馈。各级：Coffee - 泡面 - 背单词 - 刷机经 - 考TOEFL - 考GRE - 做科研 - Paper - 去参会 - 交换 - 推荐信 - 牛推 - Rej - Offer - Stanford!（希望学校不会找我喝茶hhh）";
+  document.querySelector('.game-explanation').innerHTML = "<strong class='important'>留学路漫漫，繁星伴你行：</strong> 由PHD 2048改版而来。作者：繁星留学CEO & Carnegie Mellon University - Silicon Valley MSSM WildSaoFeng Lynch。分布全球的同伴导师，更亲切的交流方式，用心辅导每位同学的留学，你们的事就是我们的事，低于市面平均中介价40%左右，欢迎关注公司公众号&咨询产品！申请季加油，都是这么过来的，祝大家Offer满满！就改了一小时左右，如果有BUG欢迎反馈。各级：Coffee - 泡面 - 背单词 - 刷机经 - 考TOEFL - 考GRE - 做科研 - Paper - 去参会 - 交换 - 推荐信 - 牛推 - Rej - Offer - Stanford!（希望学校不会找我喝茶hhh）";
 
   document.body.style.fontFamily = '"Clear Sans", "Helvetica Neue", Arial, "Hiragino Sans CNS", "PingFang TC", "Microsoft JhengHei", "Source Han Sans TC", "Noto Sans CJK TC", sans-serif';
 }
