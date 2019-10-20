@@ -1,25 +1,25 @@
 function update_captions(){
   if(window.innerWidth < 520){
-    captions = ["Coffee", "Panini",
-      "Idea", "Code",
-      "<span style='display:inline-block;line-height:11px;vertical-align:middle'>Deep Learning</span>",
-      "<span style='font-size:11px;display:inline-block;line-height:11px;vertical-align:middle'>See Supervisor</span>",
-      "<span style='font-size:11px'>Experiment</span>", "Paper",
-      "<span style='font-size:11px'>Conference</span>", "Viva", "PhD",
-      "<span style='font-size:smaller'>Postdoc</span>",
-      "<span style='font-size:smaller'>Lecturer</span>", "Reader", "Prof."];
+    captions = ["Coffee", "<span style='font-size:11px;display:inline-block;line-height:11px;vertical-align:middle'>Instant Noodles",
+      "Words", "Problems",
+      "<span style='display:inline-block;line-height:11px;vertical-align:middle'>TAKE TOEFL</span>",
+      "<span style='font-size:11px;display:inline-block;line-height:11px;vertical-align:middle'>TAKE GRE</span>",
+      "<span style='font-size:11px'>LAB</span>", "Paper",
+      "<span style='font-size:11px'>Conference</span>", "Swap", "Recommendation Letter",
+      "<span style='font-size:smaller'>STRONG RL</span>",
+      "<span style='font-size:smaller'>Rej</span>", "Offer", "Standford!"];
     captions_rel = ["<span style='font-size:9px;'>Relationship</span>",
       "<span style='font-size:11px;'>Break-up</span>"];
   }
   else{
-    captions = ["Coffee", "Panini",
-      "Idea", "Code",
-      "<span style='font-size:24px;display:inline-block;line-height:24px;vertical-align:middle'>Deep Learning</span>",
-      "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>See Supervisor</span>",
-      "<span style='font-size:20px'>Experiment</span>", "Paper",
-      "<span style='font-size:20px'>Conference</span>", "Viva", "PhD",
-      "<span style='font-size:smaller'>Postdoc</span>",
-      "<span style='font-size:smaller'>Lecturer</span>", "Reader", "Prof."];
+    captions = ["Coffee", "<span style='font-size:24px;display:inline-block;line-height:24px;vertical-align:middle'>Instant Noodles</span>",
+      "Words", "Problems",
+      "<span style='font-size:24px;display:inline-block;line-height:24px;vertical-align:middle'>TAKE TOEFL</span>",
+      "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>TAKE GRE</span>",
+      "<span style='font-size:20px'>LAB</span>", "Paper",
+      "<span style='font-size:20px'>Conference</span>", "Swap", "Recommendation Letter",
+      "<span style='font-size:smaller'>STRONG RL</span>",
+      "<span style='font-size:smaller'>Rej</span>", "Offer", "Standford!"];
     captions_rel = ["<span style='font-size:15px;'>Relationship</span>",
       "<span style='font-size:20px;'>Break-up</span>"];
   }
@@ -71,7 +71,7 @@ function play_in_english(){
   update_captions();
   window.addEventListener('resize', update_captions, true);
 
-  caption_garbage = "<span style='font-size:smaller'>Garbage</span>";
+  caption_garbage = "<span style='font-size:smaller'>Failed Exams</span>";
   window.game.actuate();
 
   game_title = "PhD";
@@ -119,31 +119,31 @@ function determine_zh_var(){
 }
 
 function use_simplified(){
-  captions = ["Coffee", "Panini",
-    "想法", "代码", "<span style='display:inline-block;line-height:30px;vertical-align:middle'>深度<br>学習</span>", "见导师",
-    "实验", "Paper", "会议", "答辩", "PhD",
-    "薄厚", "僵尸", "Reader", "叫兽"];
+  captions = ["Coffee", "泡面",
+    "背单词", "刷机经", "<span style='display:inline-block;line-height:30px;vertical-align:middle'>考TOEFL</span>", "考GRE",
+    "做科研", "Paper", "去参会", "交换", "推荐信",
+    "牛推", "Rej", "Offer", "Standford!"];
   captions_rel = ["恋爱", "分手"];
-  caption_garbage = "垃圾";
+  caption_garbage = "<span style='display:inline-block;line-height:30px;vertical-align:middle'>被中介坑了</span>";
   game_alt_title = "爱";
   window.game.actuate();
 
-  document.querySelector('.restart-button').textContent = "退学";
-  document.querySelector('.retry-button').textContent = "善";
+  document.querySelector('.restart-button').textContent = "退学创业";
+  document.querySelector('.retry-button').textContent = "我要选择繁星留学！";
   document.querySelector('.game-explanation').innerHTML = "<strong class='important'>玩法:</strong> 使用方向键搬砖. 当两块相同的砖碰在一起时, <strong>它们会组成一块更好的砖</strong>! <br>但是, 你的想法和实验也可能只是产生<strong>垃圾</strong>. 黏着的垃圾会阻碍砖块的移动, 直到被别的垃圾击中而消失. 你得到 <strong>paper</strong> 以后便不会再产生垃圾, 最多再来一块帮你清除别的垃圾.<br><strong>恋爱</strong>砖触碰任何砖都能使其升级, 但一块砖只可享受一次. 恋爱砖上会显示你使用它的次数; 10 秒后它会变成<strong>分手</strong>砖, 触碰任何砖都能使其降级, 以此来偿还之前使用的次数.";
 }
 
 function use_traditional(){
-  captions = ["Coffee", "Panini",
-    "想法", "原始碼", "<span style='display:inline-block;line-height:30px;vertical-align:middle'>深度<br>學習</span>", "見導師",
-    "實驗", "Paper", "會議", "答辯", "PhD",
-    "薄厚", "老屍", "Reader", "叫獸"];
-  captions_rel = ["戀愛", "分手"];
-  caption_garbage = "垃圾";
-  game_alt_title = "愛";
+  captions = ["Coffee", "泡面",
+    "背单词", "刷机经", "<span style='display:inline-block;line-height:30px;vertical-align:middle'>考TOEFL</span>", "考GRE",
+    "做科研", "Paper", "去参会", "交换", "推荐信",
+    "牛推", "Rej", "Offer", "Standford!"];
+  captions_rel = ["恋爱", "分手"];
+  caption_garbage = "<span style='display:inline-block;line-height:30px;vertical-align:middle'>被中介坑了</span>";
+  game_alt_title = "爱";
   window.game.actuate();
 
-  document.querySelector('.restart-button').textContent = "退學";
+  document.querySelector('.restart-button').textContent = "退学创业";
   document.querySelector('.retry-button').textContent = "善";
   document.querySelector('.game-explanation').innerHTML = "<strong class='important'>玩法：</strong>用方向鍵搬磚。當兩塊相同的磚碰在一起時，<strong>它們會併成一塊更好的磚</strong>！<br>但是，你的想法和實驗可能只是產生<strong>垃圾</strong>而已。黏在地上的垃圾會阻礙磚塊移動，直到被別的垃圾擊中而消失。你得到 <strong>paper</strong> 以後便不會再產生垃圾，最多再出一塊幫你清除場上剩下的垃圾。<br><strong>戀愛</strong>磚觸碰任何磚都能使其升級，但一塊磚只得升級一次。戀愛磚上會顯示你用它的次數。10 秒後它會變成<strong>分手</strong>磚，觸碰任何磚都能使其降級，以此來償還之前使用的次數。";
 
@@ -152,7 +152,7 @@ function use_traditional(){
 
 function play_in_chinese(){
   window.removeEventListener('resize', update_captions, true);
-  game_title = "磗士";
+  game_title = "艰难留学路 | 繁星伴你行";
   result_msg = "你得到了";
   var titleElem = document.getElementById('title');
   if(titleElem.textContent != "Love") titleElem.textContent = game_title;

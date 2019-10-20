@@ -1,4 +1,4 @@
-# PhD 2048
+# 留学 2048
 A fork of [2048](https://github.com/gabrielecirulli/2048) for PhD students. (Yes, you can create a professor's 2048 in which two students become a garbage tile.)
 
 Made just for procrastination. [Play it here!](https://ymfa.github.io/phd-2048/)
