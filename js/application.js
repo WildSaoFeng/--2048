@@ -1,7 +1,7 @@
 // Wait till the browser is ready to render the game (avoids glitches)
 window.requestAnimationFrame(function () {
   window.game = new GameManager(4, KeyboardInputManager, HTMLActuator, LocalStorageManager);
-  var lang_pref = window.game.storageManager.storage.getItem('lang');
+  var lang_pref = 'zh';
   if(lang_pref == 'en') play_in_english();
   else if(lang_pref == 'zh') play_in_chinese();
   else {
