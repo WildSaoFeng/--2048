@@ -130,7 +130,7 @@ function use_simplified(){
 
   document.querySelector('.restart-button').textContent = "退学创业";
   document.querySelector('.retry-button').textContent = "我要选择繁星留学！";
-  document.querySelector('.game-explanation').innerHTML = "<strong class='important'>玩法:</strong> 使用方向键搬砖. 当两块相同的砖碰在一起时, <strong>它们会组成一块更好的砖</strong>! <br>但是, 你的想法和实验也可能只是产生<strong>垃圾</strong>. 黏着的垃圾会阻碍砖块的移动, 直到被别的垃圾击中而消失. 你得到 <strong>paper</strong> 以后便不会再产生垃圾, 最多再来一块帮你清除别的垃圾.<br><strong>恋爱</strong>砖触碰任何砖都能使其升级, 但一块砖只可享受一次. 恋爱砖上会显示你使用它的次数; 10 秒后它会变成<strong>分手</strong>砖, 触碰任何砖都能使其降级, 以此来偿还之前使用的次数.";
+  document.querySelector('.game-explanation').innerHTML = "<strong class='important'>留学路漫漫，繁星伴你行：</strong> 由PHD 2048改版而来。作者：繁星留学CEO CMU-SV MSSM WildSaoFeng Lynch。欢迎关注公司公众号&咨询产品！申请季加油，都是这么过来的，祝大家Offer满满！就改了一小时左右，如果有BUG欢迎反馈。各级：Coffee - 泡面 - 背单词 - 刷机经 - 考TOEFL - 考GRE - 做科研 - Paper - 去参会 - 交换 - 推荐信 - 牛推 - Rej - Offer - Stanford!（希望学校不会找我喝茶hhh）";
 }
 
 function use_traditional(){
@@ -145,7 +145,7 @@ function use_traditional(){
 
   document.querySelector('.restart-button').textContent = "退学创业";
   document.querySelector('.retry-button').textContent = "善";
-  document.querySelector('.game-explanation').innerHTML = "<strong class='important'>玩法：</strong>用方向鍵搬磚。當兩塊相同的磚碰在一起時，<strong>它們會併成一塊更好的磚</strong>！<br>但是，你的想法和實驗可能只是產生<strong>垃圾</strong>而已。黏在地上的垃圾會阻礙磚塊移動，直到被別的垃圾擊中而消失。你得到 <strong>paper</strong> 以後便不會再產生垃圾，最多再出一塊幫你清除場上剩下的垃圾。<br><strong>戀愛</strong>磚觸碰任何磚都能使其升級，但一塊磚只得升級一次。戀愛磚上會顯示你用它的次數。10 秒後它會變成<strong>分手</strong>磚，觸碰任何磚都能使其降級，以此來償還之前使用的次數。";
+  document.querySelector('.game-explanation').innerHTML = "<strong class='important'>留学路漫漫，繁星伴你行：</strong> 由PHD 2048改版而来。作者：繁星留学CEO CMU-SV MSSM WildSaoFeng Lynch。欢迎关注公司公众号&咨询产品！申请季加油，都是这么过来的，祝大家Offer满满！就改了一小时左右，如果有BUG欢迎反馈。各级：Coffee - 泡面 - 背单词 - 刷机经 - 考TOEFL - 考GRE - 做科研 - Paper - 去参会 - 交换 - 推荐信 - 牛推 - Rej - Offer - Stanford!（希望学校不会找我喝茶hhh）";
 
   document.body.style.fontFamily = '"Clear Sans", "Helvetica Neue", Arial, "Hiragino Sans CNS", "PingFang TC", "Microsoft JhengHei", "Source Han Sans TC", "Noto Sans CJK TC", sans-serif';
 }
